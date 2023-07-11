@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "title": "booki",
+        "subtitle": "Trouvez votre hébergement de vacances",
+        "cover": "src/assets/booki1.png",
+        "pictures":[
+            "/src/assets/booki1.png",
+            "/src/assets/booki2.png"
+        ], 
+        "description":"Premier projet réalisé dans le cadre de la formation openClassrooms, ce projet avait pour but de réaliser, à l'aide d'une maquette, l'intégration complète du site à l'aide de uniquement à l'aide de HTML et CSS, l'interface se devait dêtre responsive avec 3 versions à respecter (desktop, tablete et mobile).",
+        "githublink": "https://github.com/ChrisHubCode/plurchristopherp2.git",
+        "projectSkill": [
+            {
+                "skillName":"HTML",
+                "skillIcon":"/src/assets/html.png",
+                "alt":"icone HTML"
+            },
+            {
+                "skillName":"CSS",
+                "skillIcon":"/src/assets/CSS.png",
+                "alt":"icone HTML"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "booki2",
+        "cover": "src/assets/test.webp",
+        "pictures":[
+            "/src/assets/test.webp",
+            "/src/assets/test.webp"
+        ], 
+        "description":"projet réalisé..."
+        
+    }
+]

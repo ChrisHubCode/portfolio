@@ -1,0 +1,51 @@
+.caroussel-container {
+    position: relative;
+    overflow: hidden;
+    height: 455px;
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid chocolate;
+    background-color: black;
+}
+.caroussel-on {
+    width: 100%;
+    height: 100%;
+}
+.caroussel-off {
+    display: none;
+}
+.caroussel-image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: chocolate;
+}
+.rightArrow {
+    position: absolute;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    font-size: 30px;
+    right: 3%;
+    color: chocolate;
+}
+.leftArrow, .rightArrow:hover {
+    cursor: pointer;
+}
+.caroussel-index {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: white;
+    font-size: 18px;
+    transform: translateX(-50%);
+    bottom: 3%;
+    color: chocolate;
+}
