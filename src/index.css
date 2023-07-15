@@ -81,3 +81,7 @@ a {
 ul {
   list-style-type: none;
 }
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: black;
+}

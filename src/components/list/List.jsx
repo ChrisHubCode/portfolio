@@ -1,17 +1,17 @@
 import React from "react";
+import "./List.css";
 
 const List = (props) => {
   const skillList = props.skills;
-  const skillOne = skillList.map((skillName, skillIcon, alt, index) => {
+  const skillAll = skillList.map((image, index) => {
     return (
       <div key={index} className="skill-tab">
-        <p>{skillName}</p>
-        <img src={skillIcon} alt={alt} />
+        <img src={image} alt="icone technologie" />
       </div>
     );
   });
 
-  return <div className="skill-all">{skillOne}</div>;
+  return <div className="skill-all">{skillAll}</div>;
 };
 
 export default List;
