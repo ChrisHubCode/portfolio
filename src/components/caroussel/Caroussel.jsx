@@ -1,7 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import previousArrow from "../../assets/navicon.png";
-import nextArrow from "../../assets/navicon.png";
 import "./Caroussel.css";
 
 const Caroussel = (props) => {

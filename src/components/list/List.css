@@ -9,3 +9,12 @@
     display: flex;
     justify-content: center;
 }
+.skill-tab img{
+    max-width: 100px;
+}
+
+@media screen and (min-width: 600px){
+    .skill-tab img {
+        max-width: 500px;
+    }
+}

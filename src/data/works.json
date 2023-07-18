@@ -3,89 +3,89 @@
         "id": "1",
         "title": "BOOKI",
         "subtitle": "Trouvez votre hébergement de vacances",
-        "cover": "src/assets/booki1.webp",
+        "cover": "./booki1.webp",
         "pictures":[
-            "/src/assets/booki1.webp",
-            "/src/assets/booki2.webp",
-            "/src/assets/booki3.webp"
+            "/booki1.webp",
+            "/booki2.webp",
+            "/booki3.webp"
         ], 
         "description":"Premier projet réalisé dans le cadre de la formation openClassrooms, ce projet avait pour but de réaliser, depuis une maquette fournie, l'intégration complète du site uniquement à l'aide de HTML et CSS, l'interface se devait dêtre responsive avec 3 versions à respecter (desktop, tablete et mobile).",
         "githublink": "https://github.com/ChrisHubCode/plurchristopherp2.git",
         "projectSkill": [
-            "/src/assets/html.png",
-            "/src/assets/css.png"
+            "/html.png",
+            "/css.png"
         ]
     },
     {
         "id": "2",
         "title": "SOPHIE BLUEL",
         "subtitle": "Architecte d'intèrieur",
-        "cover": "src/assets/bluel1.webp",
+        "cover": "/bluel1.webp",
         "pictures":[
-            "/src/assets/bluel1.webp",
-            "/src/assets/bluel2.webp",
-            "/src/assets/bluel3.webp"
+            "/bluel1.webp",
+            "/bluel2.webp",
+            "/bluel3.webp"
         ], 
         "description":"Projet réalisé durant le parcours OpenClassrooms. Le but de ce pojet étaient de manipuler les éléments du DOM mais aussi de se brancher a une API. Le Back-end ainsi qu'une partie du Front-end étaient fournis. Les principales missions étaient de coder une page de connexion de zéro, de coder la logique pour l'apparition des photos ainsi que leur filtrage et la création d'une modale permettant l'upload de nouveaux fichiers.",
         "githublink": "https://github.com/ChrisHubCode/plurchristopherp3.git",
         "projectSkill": [
-            "/src/assets/html.png",
-            "/src/assets/css.png",
-            "/src/assets/javaicon.png"
+            "/html.png",
+            "/css.png",
+            "/javaicon.png"
         ]
     },
     {
         "id": "3",
         "title": "NINA CARDUCCI",
         "subtitle": "PHOTOGRAPHE",
-        "cover": "src/assets/nina1.webp",
+        "cover": "/nina1.webp",
         "pictures":[
-            "/src/assets/nina1.webp",
-            "/src/assets/nina2.webp",
-            "/src/assets/nina3.webp"
+            "/nina1.webp",
+            "/nina2.webp",
+            "/nina3.webp"
         ], 
         "description":"Projet réalisé durant le parcours OpenClassrooms. Le but de ce projet était d'optimiser et de débugger le site d'une photographe. Les performances du site ont été optimisées et une stratégie a été mise en place afin d'améliorer la visibilité et le trafic du site (référencement local, metatags, balises meta ...). Afin de mesurer l'impact des modifications, divers outils ont été utilisés (lighthouse, wave, google rich snippet ...) .  ",
         "githublink": "https://github.com/ChrisHubCode/plurchristopherp5.git",
         "projectSkill": [
-            "/src/assets/html.png",
-            "/src/assets/javaicon.png"
+            "/html.png",
+            "/javaicon.png"
         ]
     },
     {
         "id": "4",
         "title": "KASA",
         "subtitle": "Application web de location immobilière",
-        "cover": "src/assets/kasa1.webp",
+        "cover": "/kasa1.webp",
         "pictures":[
-            "/src/assets/kasa1.webp",
-            "/src/assets/kasa2.webp",
-            "/src/assets/kasa3.webp"
+            "/kasa1.webp",
+            "/kasa2.webp",
+            "/kasa3.webp"
         ], 
         "description":"Projet réalisé durant le parcours OpenClassromms. Le but du projet était de créer une application de gestion immobilière de zéro, à laide de React JS, tout en respectant une maquette fournie. Il était demandé de configurer la navigation entre les pages avec React Router et de développer les éléments de l'interface grâce à des composants.",
         "githublink": "https://github.com/ChrisHubCode/plurchristopherp6.git",
         "projectSkill": [
-            "/src/assets/html.png",
-            "/src/assets/css.png",
-            "/src/assets/reacticon.png",
-            "/src/assets/nodeicon.png"
+            "/html.png",
+            "/css.png",
+            "/reacticon.png",
+            "/nodeicon.png"
         ]
     },{
         "id": "5",
         "title": "MON VIEUX GRIMOIRE",
         "subtitle": "Site de notation de livres",
-        "cover": "src/assets/grimoire1.webp",
+        "cover": "/grimoire1.webp",
         "pictures":[
-            "/src/assets/grimoire1.webp",
-            "/src/assets/grimoire2.webp",
-            "/src/assets/grimoire3.webp",
-            "/src/assets/grimoire4.webp"
+            "/grimoire1.webp",
+            "/grimoire2.webp",
+            "/grimoire3.webp",
+            "/grimoire4.webp"
         ], 
         "description":"Projet réalisé durant le parcours OpenClassrooms. Le but était de développer le Back-end d'un site de notations de livres. Le front-end était fourni, ma mission était de créer l'API qui serait utilisé par le Front-end. Divers routes ont étés mises en places permettant de réaliser des opérations CRUD. J'ai créé une base de données MongoDB afin de stocker les données des utilisateurs ainsi que les données relatives aux livres créés. ",
         "githublink": "https://github.com/ChrisHubCode/plurchristopherp7.git",
         "projectSkill": [
-            "/src/assets/nodeicon.png",
-            "/src/assets/javaicon.png",
-            "/src/assets/mongodbicon.png"
+            "/nodeicon.png",
+            "/javaicon.png",
+            "/mongodbicon.png"
         ]
     }
 ]

@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Error.css";
+import homeicon from "../../assets/home.png";
 
 const Error = () => {
   return (
@@ -8,7 +9,7 @@ const Error = () => {
       <p className="error-text">ERREUR</p>
       <p>la page que vous demandez n'existe pas</p>
       <NavLink className="error-return" to="/">
-        <img src="/src/assets/home.png" alt="icône de retour à l'accueil" />
+        <img src={homeicon} alt="icône de retour à l'accueil" />
         <p>Retourner vers l'accueil</p>
       </NavLink>
     </section>

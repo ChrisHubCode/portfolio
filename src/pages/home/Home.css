@@ -73,6 +73,9 @@
     color: white;
     
 }
+.skill img {
+    max-width: 100px;
+}
 
 #works-section {
     display: flex;
@@ -152,6 +155,7 @@ footer{
     }
     .skill img {
         width: 65%;
+        max-width: 300px;
 
     }
     #works-section {

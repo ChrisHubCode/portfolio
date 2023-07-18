@@ -5,6 +5,7 @@ import Caroussel from "../../components/caroussel/Caroussel";
 import List from "../../components/list/List";
 import "./Work.css";
 import { NavLink } from "react-router-dom";
+import homeIcon from "../../assets/home.png";
 
 const Work = () => {
   const { id } = useParams();
@@ -17,7 +18,7 @@ const Work = () => {
   return (
     <section className="work-section">
       <NavLink className="return-home" to="/">
-        <img src="/src/assets/home.png" alt="icône de retour à l'accueil" />
+        <img src={homeIcon} alt="icône de retour à l'accueil" />
         <p className="home-link">Retourner vers l'accueil</p>
       </NavLink>
 
