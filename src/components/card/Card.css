@@ -45,7 +45,7 @@
     bottom: 5%;
     left: 5%;
     max-width: 40%;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
 }
 
@@ -58,6 +58,7 @@
     .card-container {
         width: 45%;
         aspect-ratio: 1.5/1; 
+        margin-top: 30px;
     }
     .card:hover {
         border-radius: 20px;
@@ -69,7 +70,7 @@
     
     .card-container {
         width: 30%;
-        
-        
+          
     }
+    
 }

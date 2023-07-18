@@ -13,7 +13,7 @@ const Navigation = () => {
   return (
     <header>
       <div id="nav-mobile">
-        <div>logo</div>
+        <div> </div>
         <div onClick={switchMenu} id="container-icon-menu">
           <span className={open ? "icon-off" : "icon-on"}>&#9776;</span>
           <span className={open ? "icon-on" : "icon-off"}>&#9746;</span>
@@ -23,7 +23,7 @@ const Navigation = () => {
         <ul id="collapse-menu" onClick={switchMenu}>
           <li>
             <Link smooth to="/#about" className="nav-menu">
-              A propos
+              À propos
             </Link>
           </li>
           <li>
@@ -44,7 +44,7 @@ const Navigation = () => {
         </ul>
       </div>
       <div id="nav-desktop">
-        <div id="logo"> logo</div>
+        <div id="logo"> </div>
 
         <ul id="navbar">
           <li>

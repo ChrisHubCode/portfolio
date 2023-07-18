@@ -84,7 +84,8 @@
         "githublink": "https://github.com/ChrisHubCode/plurchristopherp7.git",
         "projectSkill": [
             "/src/assets/nodeicon.png",
-            "/src/assets/javaicon.png"
+            "/src/assets/javaicon.png",
+            "/src/assets/mongodbicon.png"
         ]
     }
 ]

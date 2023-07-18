@@ -42,6 +42,10 @@ const Home = () => {
             <h3>NODE JS</h3>
             <img src="/src/assets/nodeicon.png" alt="icone node js" />
           </div>
+          <div className="skill">
+            <h3>MONGO DB</h3>
+            <img src="/src/assets/mongodbicon.png" alt="icone mongoDB" />
+          </div>
         </div>
       </section>
       <section id="works-section">

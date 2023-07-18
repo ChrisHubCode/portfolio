@@ -65,7 +65,7 @@ header {
 }
 #navbar {
     display: flex;
-    width: 50%;
+    width: 60%;
     justify-content: space-around;
     padding-top: 5px;
     
@@ -85,7 +85,7 @@ header {
         display: none;
     }
     #navbar{
-        font-size: 2vw;
+        font-size: 16px;
     }
     .nav:hover{
         color: white;
@@ -93,4 +93,10 @@ header {
         
     }
     
+}
+
+@media screen and (min-width: 900px) {
+    #navbar{
+        font-size: 2vw;
+    }
 }
