@@ -71,6 +71,7 @@
     width: 30%;
     padding-top: 20px;
     color: white;
+    font-size: 13px;
     
 }
 .skill img {
@@ -152,10 +153,11 @@ footer{
     }
     .skill {
         width: 25%;
+        font-size: 15px;
     }
     .skill img {
         width: 65%;
-        max-width: 300px;
+        max-width: 200px;
 
     }
     #works-section {
@@ -195,6 +197,9 @@ footer{
     #about p{
         font-size: 2vw;
         
+    }
+    .skill {
+        font-size: 18px;
     }
 
 }
